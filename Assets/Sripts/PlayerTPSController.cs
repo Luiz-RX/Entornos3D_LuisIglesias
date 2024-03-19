@@ -8,11 +8,11 @@ public class PlayerTPSController : MonoBehaviour
 
     public Camera cam;
 
-//public UnityEvent oninteractioninput;
+    //public UnityEvent onInteractionInput;
     private InputData input;
     private CharacterAnimBasedMovement characterMovement;
 
-    public bool oninteractionZone{get; set; }
+    public bool onInteractionZone{get; set; }
     
     
     // Start is called before the first frame update
