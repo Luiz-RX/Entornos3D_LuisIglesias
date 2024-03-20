@@ -26289,6 +26289,7 @@ MonoBehaviour:
   rotationSpeed: 4
   rotationThreshold: 0.3
   motionParam: Motion
+  mirrorIdleParam: mirrorIdle
   startAnimTime: 0.3
   StopAnimTime: 0.15
 --- !u!143 &1096715165
@@ -35222,7 +35223,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1403823736}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.17071421, y: 0.7496989, z: 0.21219565, w: 0.6031428}
+  m_LocalRotation: {x: -0.17071426, y: 0.7496989, z: 0.21219568, w: 0.6031428}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

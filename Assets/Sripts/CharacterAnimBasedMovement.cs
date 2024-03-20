@@ -10,7 +10,7 @@ public class CharacterAnimBasedMovement : MonoBehaviour
    public float rotationSpeed = 4f;
    public float rotationThreshold = 0.3f;
 
-   [Header("Animation Parameters")] public string motionParam = "motion";
+   [Header("Animation Parameters")] public string motionParam = "Motion"; public string mirrorIdleParam = "mirrorIdle";
 
    [Header("Animation Smoothing")] [Range(0, 1f)]
    public float startAnimTime = 0.3f;
@@ -21,6 +21,7 @@ public class CharacterAnimBasedMovement : MonoBehaviour
    private Vector3 desiredMoveDirection;
    private CharacterController characterController;
    private Animator animator;
+   private bool mirrorIdle;
 
    private void Start()
    {
@@ -60,9 +61,27 @@ public class CharacterAnimBasedMovement : MonoBehaviour
       }
       else if (Speed < rotationThreshold)
       {
+          animator.SetBool(mirrorIdleParam, mirrorIdle);
           //Stop the character
           animator.SetFloat(motionParam, Speed, StopAnimTime, Time.deltaTime);
       }
       
+   }
+
+   private void OnAnimatorIK(int layerIndex)
+   {
+       if (Speed < rotationThreshold) return;
+
+       float distanceToLeftFoot = Vector3.Distance(transform.position, animator.GetIKPosition(AvatarIKGoal.LeftFoot));
+       float distanceToRightFoot = Vector3.Distance(transform.position, animator.GetIKPosition(AvatarIKGoal.RightFoot));
+
+       if (distanceToRightFoot > distanceToLeftFoot)
+       {
+           mirrorIdle = true;
+       }
+       else
+       {
+           mirrorIdle = false;
+       }
    }
 }
