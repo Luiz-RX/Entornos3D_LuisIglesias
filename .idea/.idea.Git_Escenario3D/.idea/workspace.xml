@@ -6,10 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="407f65a0-de5d-41ab-b968-2cd05e4c38e7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Git_Escenario3D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Git_Escenario3D/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Character/Ch03_nonPBR@Idle.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Character/Ch03_nonPBR@Idle.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Character/Ch03_nonPBR@Fast Run.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Character/Ch03_nonPBR@Fast Run.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Character/Ch03_nonPBR@Walking Turn 180.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Character/Ch03_nonPBR@Walking Turn 180.fbx.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animations/Character/ThirdPersonController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Character/ThirdPersonController.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Escena3D.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Escena3D.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sripts/CharacterAnimBasedMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sripts/CharacterAnimBasedMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sripts/InputData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sripts/InputData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sripts/PlayerTPSController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sripts/PlayerTPSController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +108,7 @@
       <workItem from="1710760201758" duration="3682000" />
       <workItem from="1710874489679" duration="1502000" />
       <workItem from="1710955957494" duration="1765000" />
+      <workItem from="1712137873220" duration="5324000" />
     </task>
     <servers />
   </component>

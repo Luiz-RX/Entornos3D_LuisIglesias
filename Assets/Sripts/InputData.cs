@@ -17,6 +17,7 @@ public struct InputData
     //Extra Movement
     public bool dash;
     public bool jump;
+    public bool roll;
 
     public void getInput()
     {
@@ -31,6 +32,7 @@ public struct InputData
     //Extra Movement
     dash = Input.GetButton("Dash");
     jump = Input.GetButtonDown("Jump");
+    roll = Input.GetButtonDown("Roll");
     }
 }
 
