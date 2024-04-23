@@ -34,5 +34,12 @@ public struct InputData
     jump = Input.GetButtonDown("Jump");
     roll = Input.GetButtonDown("Roll");
     }
+
+    public void resetInput()
+    {
+        hMovement = vMovement = verticalMouse = horizontalMouse = 0;
+
+        dash = jump = roll = false;
+    }
 }
 

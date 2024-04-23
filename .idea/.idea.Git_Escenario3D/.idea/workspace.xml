@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="407f65a0-de5d-41ab-b968-2cd05e4c38e7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Git_Escenario3D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Git_Escenario3D/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Character/Jump.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Character/Jump.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Escena3D.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Escena3D.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sripts/InputData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sripts/InputData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sripts/PlayerTPSController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sripts/PlayerTPSController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +16,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Sripts/TimelineActivator.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -104,6 +107,7 @@
       <workItem from="1710955957494" duration="1765000" />
       <workItem from="1712137873220" duration="5326000" />
       <workItem from="1712151817585" duration="1230000" />
+      <workItem from="1713858900640" duration="3134000" />
     </task>
     <servers />
   </component>
