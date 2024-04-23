@@ -23,22 +23,22 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.09433961, g: 0.08327425, b: 0.06363474, a: 1}
   m_AmbientEquatorColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_AmbientGroundColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-  m_AmbientIntensity: 1
+  m_AmbientIntensity: 0.83
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0, g: 0, b: 0, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: b0659edc415f07440a1a20c59891ea29, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 8162517b6ec2309499f99e303b29f146, type: 2}
   m_HaloStrength: 0
   m_FlareStrength: 1
   m_FlareFadeSpeed: 49.73
   m_HaloTexture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
-  m_DefaultReflectionMode: 0
+  m_DefaultReflectionMode: 1
   m_DefaultReflectionResolution: 128
   m_ReflectionBounces: 1
-  m_ReflectionIntensity: 1
-  m_CustomReflection: {fileID: 0}
+  m_ReflectionIntensity: 0.171
+  m_CustomReflection: {fileID: 8900000, guid: b4503954fd147c94180872808dde9eb3, type: 3}
   m_Sun: {fileID: 1548189445}
-  m_IndirectSpecularColor: {r: 0.5113658, g: 0.5674515, b: 0.65620404, a: 1}
+  m_IndirectSpecularColor: {r: 0.2404005, g: 0.31715956, b: 0.36317506, a: 0.171}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &4
 LightmapSettings:
@@ -97,8 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: f8711555d2de0644f88d50826e95f211, type: 2}
-  m_LightingSettings: {fileID: 4890085278179872738, guid: 11f35b01a082dca4bb48c3c021af1920, type: 2}
+  m_LightingDataAsset: {fileID: 112000000, guid: e7410f64d3fb1584da250e6fdb972624, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 2e18e2c638ab96848b50d737dfd22685, type: 2}
 --- !u!196 &5
 NavMeshSettings:
   serializedVersion: 2
@@ -1242,11 +1242,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 8325332858716678628, guid: d9c915bea7d67364794fa31960659c18, type: 3}
   m_PrefabInstance: {fileID: 652662781}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &29187294 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2706618894301155309, guid: cc57153b08ae2dc47ba82d63ec9a4534, type: 3}
-  m_PrefabInstance: {fileID: 1565506033}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &32983626
 PrefabInstance:
@@ -39714,8 +39709,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1403823736}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.19263393, y: -0.55622214, z: -0.13441354, w: 0.7971463}
-  m_LocalPosition: {x: 0.09625244, y: 0.082065105, z: -0.021896362}
+  m_LocalRotation: {x: -0.20146607, y: -0.5542837, z: -0.14041579, w: 0.7952764}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -44697,11 +44692,11 @@ PrefabInstance:
       objectReference: {fileID: 63444015}
     - target: {fileID: 386646896235112463, guid: cc57153b08ae2dc47ba82d63ec9a4534, type: 3}
       propertyPath: OnPlayerExit.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 386646896235112463, guid: cc57153b08ae2dc47ba82d63ec9a4534, type: 3}
       propertyPath: OnPlayerEnter.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 386646896235112463, guid: cc57153b08ae2dc47ba82d63ec9a4534, type: 3}
       propertyPath: OnTimelineEnd.m_PersistentCalls.m_Calls.Array.size
@@ -44709,7 +44704,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 386646896235112463, guid: cc57153b08ae2dc47ba82d63ec9a4534, type: 3}
       propertyPath: OnTimelineStart.m_PersistentCalls.m_Calls.Array.size
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 386646896235112463, guid: cc57153b08ae2dc47ba82d63ec9a4534, type: 3}
       propertyPath: OnPlayerExit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -44770,7 +44765,7 @@ PrefabInstance:
     - target: {fileID: 386646896235112463, guid: cc57153b08ae2dc47ba82d63ec9a4534, type: 3}
       propertyPath: OnPlayerExit.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 29187294}
+      objectReference: {fileID: 0}
     - target: {fileID: 386646896235112463, guid: cc57153b08ae2dc47ba82d63ec9a4534, type: 3}
       propertyPath: OnPlayerEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -44778,7 +44773,7 @@ PrefabInstance:
     - target: {fileID: 386646896235112463, guid: cc57153b08ae2dc47ba82d63ec9a4534, type: 3}
       propertyPath: OnPlayerEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 29187294}
+      objectReference: {fileID: 0}
     - target: {fileID: 386646896235112463, guid: cc57153b08ae2dc47ba82d63ec9a4534, type: 3}
       propertyPath: OnPlayerEnter.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
@@ -44866,11 +44861,11 @@ PrefabInstance:
     - target: {fileID: 386646896235112463, guid: cc57153b08ae2dc47ba82d63ec9a4534, type: 3}
       propertyPath: OnTimelineStart.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
-      objectReference: {fileID: 29187294}
+      objectReference: {fileID: 451407058}
     - target: {fileID: 386646896235112463, guid: cc57153b08ae2dc47ba82d63ec9a4534, type: 3}
       propertyPath: OnTimelineStart.m_PersistentCalls.m_Calls.Array.data[4].m_Target
       value: 
-      objectReference: {fileID: 451407058}
+      objectReference: {fileID: 2100570467}
     - target: {fileID: 386646896235112463, guid: cc57153b08ae2dc47ba82d63ec9a4534, type: 3}
       propertyPath: OnTimelineStart.m_PersistentCalls.m_Calls.Array.data[5].m_Target
       value: 
@@ -45160,6 +45155,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 386646896235112463, guid: cc57153b08ae2dc47ba82d63ec9a4534, type: 3}
+      propertyPath: OnTimelineStart.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 386646896235112463, guid: cc57153b08ae2dc47ba82d63ec9a4534, type: 3}
       propertyPath: OnTimelineStart.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_BoolArgument
       value: 1
       objectReference: {fileID: 0}
@@ -45260,7 +45259,8 @@ PrefabInstance:
       value: TimelineActivator (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2706618894301155309, guid: cc57153b08ae2dc47ba82d63ec9a4534, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc57153b08ae2dc47ba82d63ec9a4534, type: 3}
