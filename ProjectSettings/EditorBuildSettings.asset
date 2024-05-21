@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Escena3D.unity
     guid: ac8ff23cd546b314ab91aafe8adac92f
+  - enabled: 1
+    path: Assets/Scenes/Escena3D_Lighting.unity
+    guid: 786b3115cce417e42b01494d05c479b4
   m_configObjects: {}
