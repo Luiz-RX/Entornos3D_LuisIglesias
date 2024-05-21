@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="df072358-0259-44f7-b75b-0b1038455fca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Polygon-ForestVillage/Shaders/FX_Water.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Polygon-ForestVillage/Shaders/FX_Water.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Git_Escenario3D_URP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Git_Escenario3D_URP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Terrain.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Polygon-ForestVillage/Materials/Clouds.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Polygon-ForestVillage/Materials/Clouds.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Polygon-ForestVillage/Materials/Emission_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Polygon-ForestVillage/Materials/Emission_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Polygon-ForestVillage/Materials/Emission_02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Polygon-ForestVillage/Materials/Emission_02.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Polygon-ForestVillage/Materials/Emission_Blue 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Polygon-ForestVillage/Materials/Emission_Blue 1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Polygon-ForestVillage/Materials/Emission_Yellow 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Polygon-ForestVillage/Materials/Emission_Yellow 1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Polygon-ForestVillage/Materials/GroundSmooth.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Polygon-ForestVillage/Materials/GroundSmooth.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Polygon-ForestVillage/Materials/MainMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Polygon-ForestVillage/Materials/MainMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Polygon-ForestVillage/Prefabs/SM_Light_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Polygon-ForestVillage/Prefabs/SM_Light_01.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Escena3D_Lighting.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Escena3D_Lighting.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Environment/Water/Water4/Materials/OceanPlaneMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Environment/Water/Water4/Materials/OceanPlaneMaterial.mat" afterDir="false" />
     </list>
@@ -22,22 +34,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\luisi\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\luisi\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\luisi\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\luisi\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\luisi\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\luisi\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="$PROJECT_DIR$/../Builds/Escenario 3D\Proyecto_Escenario_3D.exe" />
@@ -94,6 +110,7 @@
       <updated>1716145908101</updated>
       <workItem from="1716145921681" duration="36000" />
       <workItem from="1716203190902" duration="62000" />
+      <workItem from="1716204907345" duration="831000" />
     </task>
     <servers />
   </component>
